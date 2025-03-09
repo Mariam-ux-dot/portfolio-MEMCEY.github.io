@@ -1,0 +1,98 @@
+/* Mobile Responsive Styles */
+@media screen and (max-width: 320px) {
+    /* General styles for small screens */
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Responsive Navigation */
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        text-align: center;
+        padding: 1em;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.5em;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Ensure images are responsive */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Responsive header */
+    header {
+        text-align: center;
+        font-size: 1.5em;
+        padding: 1em;
+    }
+
+    /* Stack main content vertically */
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+
+    /* Adjust article and aside for smaller screens */
+    article, aside {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Footer adjustments */
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1em;
+    }
+
+    /* Adjust form elements for smaller screens */
+    form {
+        width: 90%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    input, textarea, button {
+        width: 100%;
+        padding: 0.5em;
+        margin: 0.5em 0;
+        font-size: 1em;
+    }
+
+    /* Ensure tables are scrollable */
+    table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+    }
+}
+/* Media Query for screens larger than 768px */
+@media screen and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
