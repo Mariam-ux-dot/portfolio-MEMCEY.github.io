@@ -1,0 +1,78 @@
+/*Same*/
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the body takes the full viewport height */
+    width: 100%;
+    max-width: 100em;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: azure;
+    padding: 1em 0;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2em;
+    font-weight: lighter;
+    font-size: large;
+    height: 2em;
+}
+
+article {
+    background-color: azure;
+    width: 100%;
+    padding-top: 2em;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+/*Same - END*/
+
+caption{
+    font-size: x-large;
+}
+
+table{
+    align-items: center;
+    margin-right: 2em;
+}
+.wide{
+    text-align: center;
+    width: 50%;
+}
+
+.italics{
+    font-style: italic;
+}
+
+ul{
+    text-align: left;
+}
+
+
+table, th, td {
+    padding: 1em;
+    border-bottom: 1px solid black;
+}
