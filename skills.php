@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - MEMCEY</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&family=Staatliches&family=Play&display=swap">
+
+</head>
+<body>
+<?php include 'header.php'; ?>
+
+    <main>
+        <article> <h1><strong>Skills</strong></h1>
+            <section class="container">
+                <figure>
+                    <h3>HTML</h3>
+                    <img src="./images/4stars.jpg" alt="HTML">
+                </figure>
+                <figure>
+                    <h3>Java</h3>
+                    <img src="./images/4stars.jpg" alt="Java">
+                </figure>
+                <figure>
+                    <h3>Python</h3>
+                    <img src="./images/4stars.jpg" alt="Python">
+                </figure>
+                <figure>
+                    <h3>CSS</h3>
+                    <img src="./images/3stars.jpg" alt="CSS">
+                </figure>
+                <figure>
+                    <h3>PHP</h3>
+                    <img src="./images/1star.jpg" alt="PHP">
+                </figure>
+                <figure>
+                    <h3>Time Management</h3>
+                    <img src="./images/5stars.jpg" alt="Time Management">
+                </figure>
+                <figure>
+                    <h3>Organisation</h3>
+                    <img src="./images/4stars.jpg" alt="Organisation">
+                </figure>
+                <figure>
+                    <h3>Leadership</h3>
+                    <img src="./images/4stars.jpg" alt="Leadership">
+                </figure>
+            </section>
+        </article>
+    </main>
+
+<?php include 'footer.php'; ?>
+</body>
+</html>

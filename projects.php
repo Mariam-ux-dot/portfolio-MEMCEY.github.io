@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - MEMCEY</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&family=Staatliches&family=Play&display=swap">
+</head>
+<body>
+<?php include 'header.php'; ?>
+
+    <main>
+        <article>
+                <h1><strong>Projects</strong></h1>
+                <section>
+                    <h2>Cinema Booking System</h2>
+                    <details>
+                        <summary>Click here for more information</summary>
+                        <p>A-Level Coursework - Recieved Grade A</p>
+                        <p><a href="https://cinema-booking.github.io/bijou-movies.github.io/" target="_blank">This is the page </a>(not completed)</p>
+                        <p><a href="files\Mariam EL-MACHATI-CORRIT-EL-YEMLAHI -NEA H446.pdf" target="_blank">View my documentation </a> which includes the process of Analysis, Design, Development and Evaluation of the project.</p>
+                    </details>
+                </section>
+                <section>
+                    <h2>Livery Academy Awards Competition</h2>
+                    <details>
+                        <summary>Click here for more information</summary>
+                        <p>The Grocer's Award is a Livery Academy Award where three state schools compete to make the best product or service according to the brief given. When I signed up for this programme, I had just started Year 12 and thought it would be a good experience for me even though I had no background in business. Our brief was 'Financing the Future' and the financial projections had to reach a total of £500,000 at the end of five years. We had tutors that all worked at major companies in finance and other sectors.  In my team, I put myself forward to be the Project Manager. I had to make sure everyone was completing their tasks on time and helping out anyone who needed help. I had also led the research of our project within our school. Every week, we had meetings with our tutors and teachers, in addition to completing our individual tasks. On the 21st of November 2022, we had to present our project to business people who were working in major leading companies in their field. There were three judges, one of which was Tim Campbell, first winner of the UK Apprentice. Unfortunately, my team didn't make it to the finals but I am happy I went through this experience. It gave me an insight into how a business works as we also had the privilege to go on tours to our tutor's offices.</p>
+                        <p>Taking part in the Livery Academy Awards as my team’s project manager, I had the responsibility to oversee and help my team’s individual tasks. I vividly remember learning about financial projections and logo designing with my colleagues and our tutors (who were current employees in leading companies in those fields), which gave me an insight  into different industries. We had to collectively come up with a service or product which financially sustained the future, which enhanced my creative and critical thinking. By the end of the programme, I had to present our product to many business individuals who owned  top companies in different sectors, one of which was Tim Campbell (first winner of the apprentice), who judged our product against two other competitors. The experience gave me invaluable experience of working in a team and creating and delivering a product, enhancing my public speaking and competition spirit.</p>
+                    </details>
+                </section>
+        </article> 
+    </main>
+    
+<?php include 'footer.php'; ?>
+</body>
+</html>
